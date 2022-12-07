@@ -12,4 +12,5 @@ Console.WriteLine("Введите координаты Z числа B");
 double Zb = int.Parse(Console.ReadLine());
 double AB = Math.Pow(Xb-Xa, 2)+Math.Pow(Yb-Ya, 2)+Math.Pow(Zb-Za, 2);
 AB = Math.Sqrt(AB);
+AB = Math.Round(AB, 2);
 Console.WriteLine(AB);
